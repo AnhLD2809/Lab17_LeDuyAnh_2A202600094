@@ -1,0 +1,80 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Environment Variables (SENSITIVE) ────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── IDE & Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Lab 17 Runtime artifacts ─────────────────────────────────────────────────
+# Episodic memory logs (generated at runtime)
+episodic_log*.json
+
+# Benchmark output
+benchmark_raw.json
+benchmark_report.md
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Distribution / Packaging ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# ─── Type checking ────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Dependencies lock (optional – uncomment to track) ───────────────────────
+# Pipfile.lock
