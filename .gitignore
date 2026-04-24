@@ -43,9 +43,6 @@ desktop.ini
 # Episodic memory logs (generated at runtime)
 episodic_log*.json
 
-# Benchmark output
-benchmark_raw.json
-benchmark_report.md
 
 # ─── Logs ─────────────────────────────────────────────────────────────────────
 *.log
